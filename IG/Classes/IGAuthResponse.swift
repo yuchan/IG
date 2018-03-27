@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct IGAuthResponse: Codable {
-    let accessToken: String
-    let user: User
+public struct IGAuthResponse: Codable {
+    public let accessToken: String
+    public let user: User
 
     enum CodingKeys: String, CodingKey {
         case accessToken = "access_token"
@@ -18,10 +18,10 @@ struct IGAuthResponse: Codable {
     }
 }
 
-struct User: Codable {
-    let id, username, profilePicture, fullName: String
-    let bio, website: String
-    let isBusiness: Bool
+public struct User: Codable {
+    public let id, username, profilePicture, fullName: String
+    public let bio, website: String
+    public let isBusiness: Bool
 
     enum CodingKeys: String, CodingKey {
         case id, username
@@ -34,7 +34,7 @@ struct User: Codable {
 
 // MARK: Convenience initializers
 
-extension IGAuthResponse {
+public extension IGAuthResponse {
     init(data: Data) throws {
         self = try JSONDecoder().decode(IGAuthResponse.self, from: data)
     }
@@ -59,7 +59,7 @@ extension IGAuthResponse {
     }
 }
 
-extension User {
+public extension User {
     init(data: Data) throws {
         self = try JSONDecoder().decode(User.self, from: data)
     }

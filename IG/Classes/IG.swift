@@ -8,7 +8,7 @@
 
 import Foundation
 
-class IG {
+public class IG {
     fileprivate static let shared = IG()
 
     fileprivate var clientID = ""
@@ -16,13 +16,13 @@ class IG {
     fileprivate var redirectURI = ""
     fileprivate let session: URLSession = URLSession(configuration: URLSessionConfiguration.default)
 
-    static func configure(clientID: String, clientSecret: String, redirectURI: String) {
+    public static func configure(clientID: String, clientSecret: String, redirectURI: String) {
         shared.clientID = clientID
         shared.clientSecret = clientSecret
         shared.redirectURI = redirectURI
     }
 
-    static func getAccessToken(code: String, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
+    public static func getAccessToken(code: String, completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
         if let url = URL(string: "https://api.instagram.com/oauth/access_token") {
             var request = URLRequest(url: url)
             request.httpMethod = "POST"
@@ -38,7 +38,7 @@ class IG {
         }
     }
 
-    static func biography(accessToken: String, completion:@escaping (IGUser?, Error?) -> Void) {
+    public static func biography(accessToken: String, completion:@escaping (IGUser?, Error?) -> Void) {
         if let url = URL(string: "https://api.instagram.com/v1/users/self/?access_token=\(accessToken)") {
             let request = URLRequest(url: url)
             shared.session.dataTask(with: request) { (data, response, error) in
@@ -57,7 +57,7 @@ class IG {
     }
 }
 
-extension IG {
+public extension IG {
     static func authenticationUrl() -> URL? {
         guard let url = URL(string: "https://api.instagram.com/oauth/authorize/?client_id=\(IG.shared.clientID)&redirect_uri=\(IG.shared.clientSecret)&response_type=code") else {
             return nil

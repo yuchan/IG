@@ -8,15 +8,15 @@
 
 import Foundation
 
-struct IGUser: Codable {
-    let data: IGUserData
+public struct IGUser: Codable {
+    public let data: IGUserData
 }
 
-struct IGUserData: Codable {
-    let id, username, fullName, profilePicture: String
-    let bio, website: String
-    let isBusiness: Bool
-    let counts: Counts
+public struct IGUserData: Codable {
+    public let id, username, fullName, profilePicture: String
+    public let bio, website: String
+    public let isBusiness: Bool
+    public let counts: Counts
 
     enum CodingKeys: String, CodingKey {
         case id, username
@@ -28,8 +28,8 @@ struct IGUserData: Codable {
     }
 }
 
-struct Counts: Codable {
-    let media, follows, followedBy: Int
+public struct Counts: Codable {
+    public let media, follows, followedBy: Int
 
     enum CodingKeys: String, CodingKey {
         case media, follows
@@ -39,7 +39,7 @@ struct Counts: Codable {
 
 // MARK: Convenience initializers
 
-extension IGUser {
+public extension IGUser {
     init(data: Data) throws {
         self = try JSONDecoder().decode(IGUser.self, from: data)
     }
@@ -64,7 +64,7 @@ extension IGUser {
     }
 }
 
-extension IGUserData {
+public extension IGUserData {
     init(data: Data) throws {
         self = try JSONDecoder().decode(IGUserData.self, from: data)
     }
@@ -89,7 +89,7 @@ extension IGUserData {
     }
 }
 
-extension Counts {
+public extension Counts {
     init(data: Data) throws {
         self = try JSONDecoder().decode(Counts.self, from: data)
     }
