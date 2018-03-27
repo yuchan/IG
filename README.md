@@ -22,7 +22,7 @@ pod 'IG'
 
 ## Author
 
-yuchan, github@junkpiano.me
+Yusuke Ohashi, github@junkpiano.me
 
 ## License
 

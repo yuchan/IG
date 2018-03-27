@@ -1,0 +1,6 @@
+framework module IG {
+  umbrella header "IG-umbrella.h"
+
+  export *
+  module * { export * }
+}
