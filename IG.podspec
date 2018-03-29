@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IG/Classes/**/*'
+  s.source_files = 'IG/IG/**/*'
   
   # s.resource_bundles = {
   #   'IG' => ['IG/Assets/*.png']
