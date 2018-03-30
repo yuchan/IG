@@ -9,6 +9,9 @@
 import Foundation
 import KeychainAccess
 
+/**
+ Main Class for Instagram Client.
+ */
 public class IG {
     fileprivate static let shared = IG()
 
