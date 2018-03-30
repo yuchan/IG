@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/keychainaccess.git",
+        "state": {
+          "branch": null,
+          "revision": "5f5f8a1a9f802f0a0a7ba58fd2981f08f599134d",
+          "version": "3.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

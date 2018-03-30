@@ -10,6 +10,6 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-  - carthage update --platform iOS
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace IG.xcworkspace -scheme IG -sdk iphonesimulator11.2 -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.2' ONLY_ACTIVE_ARCH=NO | xcpretty
+  - swift package update
+  - swift test
   - pod lib lint --allow-warnings

@@ -39,6 +39,7 @@
 		583BE9BC206DDFDE009CB8F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		583BE9C3206DE16F009CB8F3 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
 		583BE9C5206DE813009CB8F3 /* IGError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGError.swift; sourceTree = "<group>"; };
+		583BE9C7206E2262009CB8F3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		586030D1206D055F00992951 /* IG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		586030DA206D055F00992951 /* IGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +97,7 @@
 		586030C7206D055F00992951 = {
 			isa = PBXGroup;
 			children = (
+				583BE9C7206E2262009CB8F3 /* Package.swift */,
 				583BE9B7206DDFDE009CB8F3 /* Source */,
 				583BE9B2206DDFD7009CB8F3 /* Tests */,
 				586030D2206D055F00992951 /* Products */,
