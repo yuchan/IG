@@ -1,0 +1,376 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IG.swift",
+      "line": 36,
+      "symbol": "IG.getAccessToken(code:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IG.swift",
+      "line": 64,
+      "symbol": "IG.biography(accessToken:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IG.swift",
+      "line": 98,
+      "symbol": "IG.authenticationUrl()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": null,
+      "symbol": "IGAuthResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": null,
+      "symbol": "User",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 11,
+      "symbol": "IGAuthResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 12,
+      "symbol": "IGAuthResponse.accessToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 13,
+      "symbol": "IGAuthResponse.user",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 21,
+      "symbol": "User",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 22,
+      "symbol": "User.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 23,
+      "symbol": "User.bio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 24,
+      "symbol": "User.isBusiness",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 38,
+      "symbol": "IGAuthResponse.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 42,
+      "symbol": "IGAuthResponse.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 49,
+      "symbol": "IGAuthResponse.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 53,
+      "symbol": "IGAuthResponse.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 57,
+      "symbol": "IGAuthResponse.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 63,
+      "symbol": "User.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 67,
+      "symbol": "User.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 74,
+      "symbol": "User.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 78,
+      "symbol": "User.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGAuthResponse.swift",
+      "line": 82,
+      "symbol": "User.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGError.swift",
+      "line": null,
+      "symbol": "IGError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGError.swift",
+      "line": 11,
+      "symbol": "IGError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGError.swift",
+      "line": 12,
+      "symbol": "IGError.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGError.swift",
+      "line": 13,
+      "symbol": "IGError.invalidToken",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": null,
+      "symbol": "Counts",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": null,
+      "symbol": "IGUser",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": null,
+      "symbol": "IGUserData",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 11,
+      "symbol": "IGUser",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 12,
+      "symbol": "IGUser.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 15,
+      "symbol": "IGUserData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 16,
+      "symbol": "IGUserData.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 17,
+      "symbol": "IGUserData.bio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 18,
+      "symbol": "IGUserData.isBusiness",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 19,
+      "symbol": "IGUserData.counts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 31,
+      "symbol": "Counts",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 32,
+      "symbol": "Counts.media",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 43,
+      "symbol": "IGUser.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 47,
+      "symbol": "IGUser.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 54,
+      "symbol": "IGUser.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 58,
+      "symbol": "IGUser.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 62,
+      "symbol": "IGUser.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 68,
+      "symbol": "IGUserData.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 72,
+      "symbol": "IGUserData.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 79,
+      "symbol": "IGUserData.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 83,
+      "symbol": "IGUserData.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 87,
+      "symbol": "IGUserData.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 93,
+      "symbol": "Counts.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 97,
+      "symbol": "Counts.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 104,
+      "symbol": "Counts.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 108,
+      "symbol": "Counts.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG/Source/IGUser.swift",
+      "line": 112,
+      "symbol": "Counts.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/yusuke.a.ohashi/src/github.com/yuchan/IG"
+}

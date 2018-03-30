@@ -14,12 +14,19 @@ import KeychainAccess
  */
 public class IG {
     fileprivate static let shared = IG()
-
     fileprivate var clientID = ""
     fileprivate var clientSecret = ""
     fileprivate var redirectURI = ""
     fileprivate let session: URLSession = URLSession(configuration: URLSessionConfiguration.default)
 
+    /**
+     configure instagram API
+     You can get clientID/clientSecret from https://developer.instagram.com/
+
+     - parameter clientID: String client id
+     - parameter clientSecret: String
+     - parameter redirectURI: String
+     */
     public static func configure(clientID: String, clientSecret: String, redirectURI: String) {
         shared.clientID = clientID
         shared.clientSecret = clientSecret
